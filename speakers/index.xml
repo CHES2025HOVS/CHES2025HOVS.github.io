@@ -8,13 +8,6 @@
     <language>en</language>
     <atom:link href="/speakers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A. N. Other</title>
-      <link>/speakers/a.-n.-other-2a2f7425-8b02-4f96-805c-773c8ae67d0a/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/speakers/a.-n.-other-2a2f7425-8b02-4f96-805c-773c8ae67d0a/</guid>
-      <description>&lt;p&gt;Best buddy of U. N. Owen, hidden champion and glass house owner.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Aiden Test</title>
       <link>/speakers/aiden-test-00000000-0000-0000-0000-000000000004/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -43,13 +36,6 @@
       <description>&lt;p&gt;Thinker. Food trailblazer. Organizer. Student. Pop culture fanatic. Writer. Passionate twitter lover. Music advocate.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Johnie Doe</title>
-      <link>/speakers/johnie-doe-a2b7cdd1-faa7-417e-a856-058911f7e123/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/speakers/johnie-doe-a2b7cdd1-faa7-417e-a856-058911f7e123/</guid>
-      <description>&lt;p&gt;Son of John and Jane Doe, married to Janie Doe and father of Baby Doe.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Liam Test</title>
       <link>/speakers/liam-test-00000000-0000-0000-0000-000000000006/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -62,6 +48,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/speakers/lucas-test-00000000-0000-0000-0000-000000000005/</guid>
       <description>&lt;p&gt;Music evangelist. Coffee junkie. Twitter trailblazer. Total food nerd. Student. General creator. Falls down a lot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mia Test</title>
+      <link>/speakers/mia-test-00000000-0000-0000-0000-000000000009/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/speakers/mia-test-00000000-0000-0000-0000-000000000009/</guid>
+      <description>&lt;p&gt;Explorer. Hardcore troublemaker. Creator. Pop culture nerd. Prone to fits of apathy. Web maven.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Noah Test</title>
