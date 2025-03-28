@@ -1,12 +1,11 @@
 <!doctype html>
 <html lang="en">
     <head>
-	<meta name="generator" content="Hugo 0.134.2">
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/favicon.ico" />
 
-        <title>
+        <title>Kun Yang&#39;s Session -
             Hardware Oriented Vehicle Security
         </title>
 
@@ -23,15 +22,18 @@ on this platform." />
 
         
 
-        <meta property="og:url" content="/">
+        <meta property="og:url" content="/sessions/kun-yangs-session-896375/">
+  <meta property="og:title" content="Kun Yang&#39;s Session">
   <meta property="og:description" content="CHES 2025 Workshop - Hardware Oriented Vehicle Security (HOVS)">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="sessions">
     <meta property="og:image" content="/logos/HOVS.png">
 
         
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="/logos/HOVS.png">
+  <meta name="twitter:title" content="Kun Yang&#39;s Session">
   <meta name="twitter:description" content="CHES 2025 Workshop - Hardware Oriented Vehicle Security (HOVS)">
 
 
@@ -84,7 +86,7 @@ on this platform." />
 <ul class="header-menu">
     <li>
         <a
-                class="header-menu__link header-menu__link--active"
+                class="header-menu__link"
             href="/">
             HOVS
         </a>
@@ -98,7 +100,7 @@ on this platform." />
         <li>
             <a
                 href="/sessions/"
-                    class="header-menu__link">Schedule
+                    class="header-menu__link header-menu__link--active" aria-current="page">Schedule
             </a>
         </li>
         <li>
@@ -166,7 +168,7 @@ on this platform." />
         <li class="sidebar-menu__item">
             <a
                 href="/sessions/"
-                    class="sidebar-menu__link"
+                    class="sidebar-menu__link sidebar-menu__link--active" aria-current="page"
                 aria-label="">Schedule
             </a>
         </li>
@@ -317,364 +319,32 @@ on this platform." />
 
         <main class="page-main">
             
-
-
-<section
-    class="event-title-section"
-        style="background-image: url('/images/HOVS-background.webp');"
-    >
-    <div class="event-title-section__header">
-        <h1 class="event-title-section__heading">Hardware Oriented Vehicle Security
-        </h1>
-        <h2 class="event-title-section__subheading">September 14, 2025,
-            Kuala Lumpur, Malaysia
-        </h2>
-    </div>
-
-    <div class="event-title-section__footer">
-            
-
-
-<time class="counter" datetime="2025-09-14" style="display: none;">
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-days"></span>
-        <span class="counter__label">Days</span>
-    </div>
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-hours"></span>
-        <span class="counter__label">Hrs</span>
-    </div>
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-minutes"></span>
-        <span class="counter__label">Mins</span>
-    </div>
-    <div class="counter__segment">
-        <span class="counter__value" id="countdown-seconds"></span>
-        <span class="counter__label">Secs</span>
-    </div>
-</time>
-
-<script>
-  
-  for (const element of document.getElementsByClassName("counter")) {
-    element.style.display = "inherit";
-  }
-
-  const SECOND_IN_MILLISECONDS = 1000;
-  const MINUTE_IN_MILLISECONDS = SECOND_IN_MILLISECONDS * 60;
-  const HOUR_IN_MILLISECONDS = MINUTE_IN_MILLISECONDS * 60;
-  const DAY_IN_MILLISECONDS = HOUR_IN_MILLISECONDS * 24;
-
-  const daysElement = document.getElementById("countdown-days");
-  const hoursElement = document.getElementById("countdown-hours");
-  const minutesElement = document.getElementById("countdown-minutes");
-  const secondsElement = document.getElementById("countdown-seconds");
-
-  if (!daysElement || !hoursElement || !minutesElement || !secondsElement) {
-    throw Error("Countdown elements not found.");
-  }
-
-  const end = new Date("2025-09-14");
-  let timer;
-
-  function renderCounter() {
-    const now = new Date();
-    let distance = end - now;
-    if (distance < 0) {
-      distance = 0;
-      clearInterval(timer);
-    }
-
-    const days = Math.floor(distance / DAY_IN_MILLISECONDS);
-    const hours = Math.floor(
-            (distance % DAY_IN_MILLISECONDS) / HOUR_IN_MILLISECONDS
-    );
-    const minutes = Math.floor(
-            (distance % HOUR_IN_MILLISECONDS) / MINUTE_IN_MILLISECONDS
-    );
-    const seconds = Math.floor(
-            (distance % MINUTE_IN_MILLISECONDS) / SECOND_IN_MILLISECONDS
-    );
-
-    daysElement.innerHTML = days.toString();
-    hoursElement.innerHTML = hours.toString();
-    minutesElement.innerHTML = minutes.toString();
-    secondsElement.innerHTML = seconds.toString();
-  }
-
-  renderCounter();
-  timer = setInterval(renderCounter, 1000);
-</script>
-
-
-
-
-    </div>
-</section>
-
-
-    
-    
-    
-    
-
-
-<div class="section-container">
-    <section class="section section--long event-highlights-section">
-        <header class="event-highlights-section__header">
-                <img
-                    class="event-highlights-section__logo"
-                    src="/logos/HOVS.png"
-                    
-                        width="775" height="775"
-                     />
-            
-            <article class="event-highlights-section__description">
-                <h1 class="heading heading--highlighted">
-                    Hardware Oriented Vehicle Security
-                </h1>
-                <h2 class="heading heading--2">
-                    Hardware Oriented Vehicle Security (HOVS)
-                </h2>
-
-                <p class="paragraph event-highlights-section__paragraph">Emerging techniques, such as AI, smart IoTs and high performance chips,
-have significantly enhanced vehicle intelligence and connectivity.
-While it makes smart cars approaching L4 autonomous driving,
-the enlarged attack surface has consequently led to an exponential
-expansion of security risks. Although plenty of classic cybersecurity
-techniques have been applied on smart vehicles, customized systematic
-security designs and tests for the intelligent vehicles are still in a lack.
-We propose organizing the workshop to bring experts from academia, industry,
-and regulatory bodies, for exchanging ideas and sharing the latest advancements
-on this platform.</p>
-            </article>
-        </header>
-
-        <article class="event-highlights-section__figures">
-                
-
-
-<figure class="highlight-figure" aria-label="Highlight">
-        <div class="highlight-figure__image-wrapper">
-            
-            <img
-                class="highlight-figure__image"
-                aria-hidden="true"
-                src="/icons/speaker.svg"
-                alt=""
-                 />
-        </div>
-    
-    <figcaption class="highlight-figure__caption">4 Speakers</figcaption>
-</figure>
-
-
-
-<figure class="highlight-figure" aria-label="Highlight">
-        <div class="highlight-figure__image-wrapper">
-            
-            <img
-                class="highlight-figure__image"
-                aria-hidden="true"
-                src="/icons/session.svg"
-                alt=""
-                 />
-        </div>
-    
-    <figcaption class="highlight-figure__caption">4 Sessions</figcaption>
-</figure>
-
-
-
-<figure class="highlight-figure" aria-label="Highlight">
-        <div class="highlight-figure__image-wrapper">
-            
-            <img
-                class="highlight-figure__image"
-                aria-hidden="true"
-                src="/icons/calendar.svg"
-                alt=""
-                 />
-        </div>
-    
-    <figcaption class="highlight-figure__caption">5 Days</figcaption>
-</figure>
-
-
-
-<figure class="highlight-figure" aria-label="Highlight">
-        <div class="highlight-figure__image-wrapper">
-            
-            <img
-                class="highlight-figure__image"
-                aria-hidden="true"
-                src="/icons/location.svg"
-                alt=""
-                 />
-        </div>
-    
-    <figcaption class="highlight-figure__caption">Kuala Lumpur, Malaysia</figcaption>
-</figure>
-
-        </article>
-    </section>
-</div>
-
-
-
-<div class="section-container section-container--dimmed">
-    <section class="section section--long conference-tracks-section">
-        <h1 class="heading heading--highlighted heading--centered">
-            Conference Tracks
-        </h1>
-        <h2 class="heading heading--2 heading--centered">
-            Discover our Topics
-        </h2>
-        <ol class="conference-tracks-section__list">
-                <li class="conference-tracks-section__list-item">
-                    #SCIENTIFIC
-                </li>
-                <li class="conference-tracks-section__list-item">
-                    #TECHNICAL
-                </li>
-        </ol>
-            <a href="/sessions/" class="button button--outlined">
-                Open schedule
-            </a>
-    </section>
-</div>
-
-        
-
-
-<div class="section-container section-container--highlighted">
-    <section
-        class="section section--long featured-sessions-section"
-            aria-label="Featured Sessions">
-        <div class="featured-sessions-section__carousel">
-            <menu class="carousel" role="menu">
-                    <li
-                        id="featuredSession0"
-                        class="carousel__item featured-sessions-section__list-item"
-                        role="menuitem"
-                        aria-label="Haoting Shen&#39;s Session">
-                        <div class="featured-sessions-section__speakers">
-                                    <figure
-                                            class="featured-sessions-section__avatar">
-
-
-<article class="shaped-image">
-        <figure class="shaped-image__figure"><svg width="100%" height="100%" viewBox="0 0 77 77" xmlns="http://www.w3.org/2000/svg">
-    <circle fill="currentColor" cx="1.66343" cy="74.5221" r="1.66343" transform="rotate(-90 1.66343 74.5221)" />
-    <circle fill="currentColor" cx="1.66343" cy="30.94" r="1.66343" transform="rotate(-90 1.66343 30.94)" />
-    <circle fill="currentColor" cx="16.3021" cy="74.5221" r="1.66343" transform="rotate(-90 16.3021 74.5221)" />
-    <circle fill="currentColor" cx="16.3021" cy="30.94" r="1.66343" transform="rotate(-90 16.3021 30.94)" />
-    <circle fill="currentColor" cx="30.9398" cy="74.5221" r="1.66343" transform="rotate(-90 30.9398 74.5221)" />
-    <circle fill="currentColor" cx="30.9398" cy="30.94" r="1.66343" transform="rotate(-90 30.9398 30.94)" />
-    <circle fill="currentColor" cx="45.5785" cy="74.5221" r="1.66343" transform="rotate(-90 45.5785 74.5221)" />
-    <circle fill="currentColor" cx="45.5785" cy="30.94" r="1.66343" transform="rotate(-90 45.5785 30.94)" />
-    <circle fill="currentColor" cx="60.2162" cy="74.5216" r="1.66343" transform="rotate(-90 60.2162 74.5216)" />
-    <circle fill="currentColor" cx="74.6634" cy="74.5216" r="1.66343" transform="rotate(-90 74.6634 74.5216)" />
-    <circle fill="currentColor" cx="60.2162" cy="30.9399" r="1.66343" transform="rotate(-90 60.2162 30.9399)" />
-    <circle fill="currentColor" cx="74.6634" cy="30.9399" r="1.66343" transform="rotate(-90 74.6634 30.9399)" />
-    <circle fill="currentColor" cx="1.66343" cy="59.8839" r="1.66343" transform="rotate(-90 1.66343 59.8839)" />
-    <circle fill="currentColor" cx="1.66343" cy="16.3017" r="1.66343" transform="rotate(-90 1.66343 16.3017)" />
-    <circle fill="currentColor" cx="16.3021" cy="59.8839" r="1.66343" transform="rotate(-90 16.3021 59.8839)" />
-    <circle fill="currentColor" cx="16.3021" cy="16.3017" r="1.66343" transform="rotate(-90 16.3021 16.3017)" />
-    <circle fill="currentColor" cx="30.9398" cy="59.8839" r="1.66343" transform="rotate(-90 30.9398 59.8839)" />
-    <circle fill="currentColor" cx="30.9398" cy="16.3017" r="1.66343" transform="rotate(-90 30.9398 16.3017)" />
-    <circle fill="currentColor" cx="45.5785" cy="59.8839" r="1.66343" transform="rotate(-90 45.5785 59.8839)" />
-    <circle fill="currentColor" cx="45.5785" cy="16.3017" r="1.66343" transform="rotate(-90 45.5785 16.3017)" />
-    <circle fill="currentColor" cx="60.2162" cy="59.8839" r="1.66343" transform="rotate(-90 60.2162 59.8839)" />
-    <circle fill="currentColor" cx="74.6634" cy="59.8839" r="1.66343" transform="rotate(-90 74.6634 59.8839)" />
-    <circle fill="currentColor" cx="60.2162" cy="16.3017" r="1.66343" transform="rotate(-90 60.2162 16.3017)" />
-    <circle fill="currentColor" cx="74.6634" cy="16.3017" r="1.66343" transform="rotate(-90 74.6634 16.3017)" />
-    <circle fill="currentColor" cx="1.66343" cy="45.2455" r="1.66343" transform="rotate(-90 1.66343 45.2455)" />
-    <circle fill="currentColor" cx="1.66343" cy="1.66344" r="1.66343" transform="rotate(-90 1.66343 1.66344)" />
-    <circle fill="currentColor" cx="16.3021" cy="45.2455" r="1.66343" transform="rotate(-90 16.3021 45.2455)" />
-    <circle fill="currentColor" cx="16.3021" cy="1.66342" r="1.66343" transform="rotate(-90 16.3021 1.66342)" />
-    <circle fill="currentColor" cx="30.9398" cy="45.2455" r="1.66343" transform="rotate(-90 30.9398 45.2455)" />
-    <circle fill="currentColor" cx="30.9398" cy="1.66342" r="1.66343" transform="rotate(-90 30.9398 1.66342)" />
-    <circle fill="currentColor" cx="45.5785" cy="45.2455" r="1.66343" transform="rotate(-90 45.5785 45.2455)" />
-    <circle fill="currentColor" cx="45.5785" cy="1.66344" r="1.66343" transform="rotate(-90 45.5785 1.66344)" />
-    <circle fill="currentColor" cx="60.2162" cy="45.2458" r="1.66343" transform="rotate(-90 60.2162 45.2458)" />
-    <circle fill="currentColor" cx="74.6634" cy="45.2458" r="1.66343" transform="rotate(-90 74.6634 45.2458)" />
-    <circle fill="currentColor" cx="60.2162" cy="1.66371" r="1.66343" transform="rotate(-90 60.2162 1.66371)" />
-    <circle fill="currentColor" cx="74.6634" cy="1.66371" r="1.66343" transform="rotate(-90 74.6634 1.66371)" />
-</svg>
-
-        </figure>
-
-
-    <img
-            class="shaped-image__image"
-            src="/sessions/haoting-shens-session-896382/avatar-726b25f8-a400-4d8e-aa9f-6873e86f958b.webp"
-        alt="Haoting Shen"
-        
-            width="" height=""
-         />
-</article>
-
-                                        <figcaption class="featured-sessions-section__avatar-caption">
-                                            <strong>Haoting Shen</strong>
-                                            <div>ZJU100 professor at college of computer science and technology, Zhejiang University, China.</div>
-                                        </figcaption>
-                                    </figure>
-                        </div>
-                        <div class="featured-sessions-section__session">
-                            <h1 class="heading">Featured Sessions</h1>
-                            <h2 class="heading heading--2" aria-label="Haoting Shen&#39;s Session">Haoting Shen&#39;s Session<div class="featured-sessions-section__categories">
+    <div class="section-container">
+        <section class="section single-session-section" aria-label="Session information">
+            <div class="single-session-section__spacer"></div>
+            <div class="single-session-section__session-information">
+                <h1 class="single-session-section__heading">
+                    <div class="single-session-section__metadata">
+                    </div>Kun Yang&#39;s Session</h1>
+                <p class="single-session-section__content"></p>
 
 
 <ul aria-label="Session Categories" class="session-categories ">
 </ul>
+</div>
+        </section>
+        <section class="section" aria-label="Speaker of the session">
+            <h1 class="heading heading--2">Speaker</h1>
+            <ul class="carousel single-session-speaker-list" role="list">
+                        <li
+                            id="sessionSpeaker0"
+                            class="carousel__item single-session-speaker-list__list-item"
+                            role="listitem"
+                            aria-label="Kun Yang">
+                            <div class="single-session-speaker-list__avatar">
 
-                                </div>
-                            </h2>
 
-                            <p class="paragraph paragraph--highlighted featured-sessions-section__session-description">...
-                                <a href="/sessions/haoting-shens-session-896382/" class="link link--white">read more</a>
-                            </p>
-                            <div class="featured-sessions-section__carousel-buttons">
-    <div class="carousel-buttons">
-        <button
-            aria-label="Previous item"
-                disabled class="button button--outlined button--round button--disabled">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16 6.8125H2.65625L7.96875 1.40625C8.25 1.125 8.25 0.6875 7.96875 0.40625C7.6875 0.125 7.25 0.125 6.96875 0.40625L0.5 6.96875C0.21875 7.25 0.21875 7.6875 0.5 7.96875L6.96875 14.5312C7.09375 14.6562 7.28125 14.75 7.46875 14.75C7.65625 14.75 7.8125 14.6875 7.96875 14.5625C8.25 14.2812 8.25 13.8438 7.96875 13.5625L2.6875 8.21875H16C16.375 8.21875 16.6875 7.90625 16.6875 7.53125C16.6875 7.125 16.375 6.8125 16 6.8125Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-        <button
-            aria-label="Next item"
-                class="button button--outlined button--round"
-                    onclick="window['featuredSession1'].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' })">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16.5 7L10.0312 0.4375C9.75 0.15625 9.3125 0.15625 9.03125 0.4375C8.75 0.71875 8.75 1.15625 9.03125 1.4375L14.2812 6.78125H1C0.625 6.78125 0.3125 7.09375 0.3125 7.46875C0.3125 7.84375 0.625 8.1875 1 8.1875H14.3437L9.03125 13.5938C8.75 13.875 8.75 14.3125 9.03125 14.5938C9.15625 14.7188 9.34375 14.7812 9.53125 14.7812C9.71875 14.7812 9.90625 14.7188 10.0312 14.5625L16.5 8C16.7812 7.71875 16.7812 7.28125 16.5 7Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-    </div>
-
-                            </div>
-                        </div>
-                    </li>
-                    <li
-                        id="featuredSession1"
-                        class="carousel__item featured-sessions-section__list-item"
-                        role="menuitem"
-                        aria-label="Kun Yang&#39;s Session">
-                        <div class="featured-sessions-section__speakers">
-                                    <figure
-                                            class="featured-sessions-section__avatar">
+<article class="speaker-avatar-container">
 
 
 <article class="shaped-image">
@@ -722,379 +392,101 @@ on this platform.</p>
 
     <img
             class="shaped-image__image"
-            src="/sessions/kun-yangs-session-896375/avatar-2b786b92-ff85-4834-a3ea-995c81716f3c.webp"
+            src="/speakers/kun-yang-2b786b92-ff85-4834-a3ea-995c81716f3c/avatar.webp"
         alt="Kun Yang"
         
             width="" height=""
          />
 </article>
 
-                                        <figcaption class="featured-sessions-section__avatar-caption">
-                                            <strong>Kun Yang</strong>
-                                            <div>ZJU100 professor at college of computer science and technology, Zhejiang University, China.</div>
-                                        </figcaption>
-                                    </figure>
-                        </div>
-                        <div class="featured-sessions-section__session">
-                            <h1 class="heading">Featured Sessions</h1>
-                            <h2 class="heading heading--2" aria-label="Kun Yang&#39;s Session">Kun Yang&#39;s Session<div class="featured-sessions-section__categories">
-
-
-<ul aria-label="Session Categories" class="session-categories ">
-</ul>
-
-                                </div>
-                            </h2>
-
-                            <p class="paragraph paragraph--highlighted featured-sessions-section__session-description">...
-                                <a href="/sessions/kun-yangs-session-896375/" class="link link--white">read more</a>
-                            </p>
-                            <div class="featured-sessions-section__carousel-buttons">
-    <div class="carousel-buttons">
-        <button
-            aria-label="Previous item"
-                class="button button--outlined button--round"
-                    onclick="window['featuredSession0'].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' })">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16 6.8125H2.65625L7.96875 1.40625C8.25 1.125 8.25 0.6875 7.96875 0.40625C7.6875 0.125 7.25 0.125 6.96875 0.40625L0.5 6.96875C0.21875 7.25 0.21875 7.6875 0.5 7.96875L6.96875 14.5312C7.09375 14.6562 7.28125 14.75 7.46875 14.75C7.65625 14.75 7.8125 14.6875 7.96875 14.5625C8.25 14.2812 8.25 13.8438 7.96875 13.5625L2.6875 8.21875H16C16.375 8.21875 16.6875 7.90625 16.6875 7.53125C16.6875 7.125 16.375 6.8125 16 6.8125Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-        <button
-            aria-label="Next item"
-                class="button button--outlined button--round"
-                    onclick="window['featuredSession2'].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' })">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16.5 7L10.0312 0.4375C9.75 0.15625 9.3125 0.15625 9.03125 0.4375C8.75 0.71875 8.75 1.15625 9.03125 1.4375L14.2812 6.78125H1C0.625 6.78125 0.3125 7.09375 0.3125 7.46875C0.3125 7.84375 0.625 8.1875 1 8.1875H14.3437L9.03125 13.5938C8.75 13.875 8.75 14.3125 9.03125 14.5938C9.15625 14.7188 9.34375 14.7812 9.53125 14.7812C9.71875 14.7812 9.90625 14.7188 10.0312 14.5625L16.5 8C16.7812 7.71875 16.7812 7.28125 16.5 7Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-    </div>
-
-                            </div>
-                        </div>
-                    </li>
-                    <li
-                        id="featuredSession2"
-                        class="carousel__item featured-sessions-section__list-item"
-                        role="menuitem"
-                        aria-label="Xiaohang Wang&#39;s Session">
-                        <div class="featured-sessions-section__speakers">
-                                    <figure
-                                            class="featured-sessions-section__avatar">
-
-
-<article class="shaped-image">
-        <figure class="shaped-image__figure"><svg width="100%" height="100%" viewBox="0 0 77 77" xmlns="http://www.w3.org/2000/svg">
-    <circle fill="currentColor" cx="1.66343" cy="74.5221" r="1.66343" transform="rotate(-90 1.66343 74.5221)" />
-    <circle fill="currentColor" cx="1.66343" cy="30.94" r="1.66343" transform="rotate(-90 1.66343 30.94)" />
-    <circle fill="currentColor" cx="16.3021" cy="74.5221" r="1.66343" transform="rotate(-90 16.3021 74.5221)" />
-    <circle fill="currentColor" cx="16.3021" cy="30.94" r="1.66343" transform="rotate(-90 16.3021 30.94)" />
-    <circle fill="currentColor" cx="30.9398" cy="74.5221" r="1.66343" transform="rotate(-90 30.9398 74.5221)" />
-    <circle fill="currentColor" cx="30.9398" cy="30.94" r="1.66343" transform="rotate(-90 30.9398 30.94)" />
-    <circle fill="currentColor" cx="45.5785" cy="74.5221" r="1.66343" transform="rotate(-90 45.5785 74.5221)" />
-    <circle fill="currentColor" cx="45.5785" cy="30.94" r="1.66343" transform="rotate(-90 45.5785 30.94)" />
-    <circle fill="currentColor" cx="60.2162" cy="74.5216" r="1.66343" transform="rotate(-90 60.2162 74.5216)" />
-    <circle fill="currentColor" cx="74.6634" cy="74.5216" r="1.66343" transform="rotate(-90 74.6634 74.5216)" />
-    <circle fill="currentColor" cx="60.2162" cy="30.9399" r="1.66343" transform="rotate(-90 60.2162 30.9399)" />
-    <circle fill="currentColor" cx="74.6634" cy="30.9399" r="1.66343" transform="rotate(-90 74.6634 30.9399)" />
-    <circle fill="currentColor" cx="1.66343" cy="59.8839" r="1.66343" transform="rotate(-90 1.66343 59.8839)" />
-    <circle fill="currentColor" cx="1.66343" cy="16.3017" r="1.66343" transform="rotate(-90 1.66343 16.3017)" />
-    <circle fill="currentColor" cx="16.3021" cy="59.8839" r="1.66343" transform="rotate(-90 16.3021 59.8839)" />
-    <circle fill="currentColor" cx="16.3021" cy="16.3017" r="1.66343" transform="rotate(-90 16.3021 16.3017)" />
-    <circle fill="currentColor" cx="30.9398" cy="59.8839" r="1.66343" transform="rotate(-90 30.9398 59.8839)" />
-    <circle fill="currentColor" cx="30.9398" cy="16.3017" r="1.66343" transform="rotate(-90 30.9398 16.3017)" />
-    <circle fill="currentColor" cx="45.5785" cy="59.8839" r="1.66343" transform="rotate(-90 45.5785 59.8839)" />
-    <circle fill="currentColor" cx="45.5785" cy="16.3017" r="1.66343" transform="rotate(-90 45.5785 16.3017)" />
-    <circle fill="currentColor" cx="60.2162" cy="59.8839" r="1.66343" transform="rotate(-90 60.2162 59.8839)" />
-    <circle fill="currentColor" cx="74.6634" cy="59.8839" r="1.66343" transform="rotate(-90 74.6634 59.8839)" />
-    <circle fill="currentColor" cx="60.2162" cy="16.3017" r="1.66343" transform="rotate(-90 60.2162 16.3017)" />
-    <circle fill="currentColor" cx="74.6634" cy="16.3017" r="1.66343" transform="rotate(-90 74.6634 16.3017)" />
-    <circle fill="currentColor" cx="1.66343" cy="45.2455" r="1.66343" transform="rotate(-90 1.66343 45.2455)" />
-    <circle fill="currentColor" cx="1.66343" cy="1.66344" r="1.66343" transform="rotate(-90 1.66343 1.66344)" />
-    <circle fill="currentColor" cx="16.3021" cy="45.2455" r="1.66343" transform="rotate(-90 16.3021 45.2455)" />
-    <circle fill="currentColor" cx="16.3021" cy="1.66342" r="1.66343" transform="rotate(-90 16.3021 1.66342)" />
-    <circle fill="currentColor" cx="30.9398" cy="45.2455" r="1.66343" transform="rotate(-90 30.9398 45.2455)" />
-    <circle fill="currentColor" cx="30.9398" cy="1.66342" r="1.66343" transform="rotate(-90 30.9398 1.66342)" />
-    <circle fill="currentColor" cx="45.5785" cy="45.2455" r="1.66343" transform="rotate(-90 45.5785 45.2455)" />
-    <circle fill="currentColor" cx="45.5785" cy="1.66344" r="1.66343" transform="rotate(-90 45.5785 1.66344)" />
-    <circle fill="currentColor" cx="60.2162" cy="45.2458" r="1.66343" transform="rotate(-90 60.2162 45.2458)" />
-    <circle fill="currentColor" cx="74.6634" cy="45.2458" r="1.66343" transform="rotate(-90 74.6634 45.2458)" />
-    <circle fill="currentColor" cx="60.2162" cy="1.66371" r="1.66343" transform="rotate(-90 60.2162 1.66371)" />
-    <circle fill="currentColor" cx="74.6634" cy="1.66371" r="1.66343" transform="rotate(-90 74.6634 1.66371)" />
-</svg>
-
-        </figure>
-
-
-    <img
-            class="shaped-image__image"
-            src="/sessions/xiaohang-wangs-session-896384/avatar-90831a01-8501-4464-a604-af4c65c119a5.webp"
-        alt="Xiaohang Wang"
-        
-            width="" height=""
-         />
 </article>
 
-                                        <figcaption class="featured-sessions-section__avatar-caption">
-                                            <strong>Xiaohang Wang</strong>
-                                            <div>a professor at Zhejiang University</div>
-                                        </figcaption>
-                                    </figure>
-                        </div>
-                        <div class="featured-sessions-section__session">
-                            <h1 class="heading">Featured Sessions</h1>
-                            <h2 class="heading heading--2" aria-label="Xiaohang Wang&#39;s Session">Xiaohang Wang&#39;s Session<div class="featured-sessions-section__categories">
-
-
-<ul aria-label="Session Categories" class="session-categories ">
-</ul>
+                            </div>
+                            <div class="single-session-speaker-list__speaker">
+                                <h2 class="heading heading--4 heading--embedded">
+                                    Kun Yang
+                                </h2>
+                                <p class="paragraph">ZJU100 professor at college of computer science and technology, Zhejiang University, China.</p>
+                                <p class="paragraph single-session-speaker-list__biography">
+                                    ...
+                                    <a href="/speakers/kun-yang-2b786b92-ff85-4834-a3ea-995c81716f3c/" class="link">
+                                        read more
+                                    </a>
+                                </p>
+                                <div class="single-session-speaker-list__carousel-buttons">
 
                                 </div>
-                            </h2>
-
-                            <p class="paragraph paragraph--highlighted featured-sessions-section__session-description">...
-                                <a href="/sessions/xiaohang-wangs-session-896384/" class="link link--white">read more</a>
-                            </p>
-                            <div class="featured-sessions-section__carousel-buttons">
-    <div class="carousel-buttons">
-        <button
-            aria-label="Previous item"
-                class="button button--outlined button--round"
-                    onclick="window['featuredSession1'].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' })">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16 6.8125H2.65625L7.96875 1.40625C8.25 1.125 8.25 0.6875 7.96875 0.40625C7.6875 0.125 7.25 0.125 6.96875 0.40625L0.5 6.96875C0.21875 7.25 0.21875 7.6875 0.5 7.96875L6.96875 14.5312C7.09375 14.6562 7.28125 14.75 7.46875 14.75C7.65625 14.75 7.8125 14.6875 7.96875 14.5625C8.25 14.2812 8.25 13.8438 7.96875 13.5625L2.6875 8.21875H16C16.375 8.21875 16.6875 7.90625 16.6875 7.53125C16.6875 7.125 16.375 6.8125 16 6.8125Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-        <button
-            aria-label="Next item"
-                class="button button--outlined button--round"
-                    onclick="window['featuredSession3'].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' })">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16.5 7L10.0312 0.4375C9.75 0.15625 9.3125 0.15625 9.03125 0.4375C8.75 0.71875 8.75 1.15625 9.03125 1.4375L14.2812 6.78125H1C0.625 6.78125 0.3125 7.09375 0.3125 7.46875C0.3125 7.84375 0.625 8.1875 1 8.1875H14.3437L9.03125 13.5938C8.75 13.875 8.75 14.3125 9.03125 14.5938C9.15625 14.7188 9.34375 14.7812 9.53125 14.7812C9.71875 14.7812 9.90625 14.7188 10.0312 14.5625L16.5 8C16.7812 7.71875 16.7812 7.28125 16.5 7Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-    </div>
-
                             </div>
-                        </div>
-                    </li>
-                    <li
-                        id="featuredSession3"
-                        class="carousel__item featured-sessions-section__list-item"
-                        role="menuitem"
-                        aria-label="Yang Yin&#39;s Session">
-                        <div class="featured-sessions-section__speakers">
-                                    <figure
-                                            class="featured-sessions-section__avatar">
-
-
-<article class="shaped-image">
-        <figure class="shaped-image__figure"><svg width="100%" height="100%" viewBox="0 0 77 77" xmlns="http://www.w3.org/2000/svg">
-    <circle fill="currentColor" cx="1.66343" cy="74.5221" r="1.66343" transform="rotate(-90 1.66343 74.5221)" />
-    <circle fill="currentColor" cx="1.66343" cy="30.94" r="1.66343" transform="rotate(-90 1.66343 30.94)" />
-    <circle fill="currentColor" cx="16.3021" cy="74.5221" r="1.66343" transform="rotate(-90 16.3021 74.5221)" />
-    <circle fill="currentColor" cx="16.3021" cy="30.94" r="1.66343" transform="rotate(-90 16.3021 30.94)" />
-    <circle fill="currentColor" cx="30.9398" cy="74.5221" r="1.66343" transform="rotate(-90 30.9398 74.5221)" />
-    <circle fill="currentColor" cx="30.9398" cy="30.94" r="1.66343" transform="rotate(-90 30.9398 30.94)" />
-    <circle fill="currentColor" cx="45.5785" cy="74.5221" r="1.66343" transform="rotate(-90 45.5785 74.5221)" />
-    <circle fill="currentColor" cx="45.5785" cy="30.94" r="1.66343" transform="rotate(-90 45.5785 30.94)" />
-    <circle fill="currentColor" cx="60.2162" cy="74.5216" r="1.66343" transform="rotate(-90 60.2162 74.5216)" />
-    <circle fill="currentColor" cx="74.6634" cy="74.5216" r="1.66343" transform="rotate(-90 74.6634 74.5216)" />
-    <circle fill="currentColor" cx="60.2162" cy="30.9399" r="1.66343" transform="rotate(-90 60.2162 30.9399)" />
-    <circle fill="currentColor" cx="74.6634" cy="30.9399" r="1.66343" transform="rotate(-90 74.6634 30.9399)" />
-    <circle fill="currentColor" cx="1.66343" cy="59.8839" r="1.66343" transform="rotate(-90 1.66343 59.8839)" />
-    <circle fill="currentColor" cx="1.66343" cy="16.3017" r="1.66343" transform="rotate(-90 1.66343 16.3017)" />
-    <circle fill="currentColor" cx="16.3021" cy="59.8839" r="1.66343" transform="rotate(-90 16.3021 59.8839)" />
-    <circle fill="currentColor" cx="16.3021" cy="16.3017" r="1.66343" transform="rotate(-90 16.3021 16.3017)" />
-    <circle fill="currentColor" cx="30.9398" cy="59.8839" r="1.66343" transform="rotate(-90 30.9398 59.8839)" />
-    <circle fill="currentColor" cx="30.9398" cy="16.3017" r="1.66343" transform="rotate(-90 30.9398 16.3017)" />
-    <circle fill="currentColor" cx="45.5785" cy="59.8839" r="1.66343" transform="rotate(-90 45.5785 59.8839)" />
-    <circle fill="currentColor" cx="45.5785" cy="16.3017" r="1.66343" transform="rotate(-90 45.5785 16.3017)" />
-    <circle fill="currentColor" cx="60.2162" cy="59.8839" r="1.66343" transform="rotate(-90 60.2162 59.8839)" />
-    <circle fill="currentColor" cx="74.6634" cy="59.8839" r="1.66343" transform="rotate(-90 74.6634 59.8839)" />
-    <circle fill="currentColor" cx="60.2162" cy="16.3017" r="1.66343" transform="rotate(-90 60.2162 16.3017)" />
-    <circle fill="currentColor" cx="74.6634" cy="16.3017" r="1.66343" transform="rotate(-90 74.6634 16.3017)" />
-    <circle fill="currentColor" cx="1.66343" cy="45.2455" r="1.66343" transform="rotate(-90 1.66343 45.2455)" />
-    <circle fill="currentColor" cx="1.66343" cy="1.66344" r="1.66343" transform="rotate(-90 1.66343 1.66344)" />
-    <circle fill="currentColor" cx="16.3021" cy="45.2455" r="1.66343" transform="rotate(-90 16.3021 45.2455)" />
-    <circle fill="currentColor" cx="16.3021" cy="1.66342" r="1.66343" transform="rotate(-90 16.3021 1.66342)" />
-    <circle fill="currentColor" cx="30.9398" cy="45.2455" r="1.66343" transform="rotate(-90 30.9398 45.2455)" />
-    <circle fill="currentColor" cx="30.9398" cy="1.66342" r="1.66343" transform="rotate(-90 30.9398 1.66342)" />
-    <circle fill="currentColor" cx="45.5785" cy="45.2455" r="1.66343" transform="rotate(-90 45.5785 45.2455)" />
-    <circle fill="currentColor" cx="45.5785" cy="1.66344" r="1.66343" transform="rotate(-90 45.5785 1.66344)" />
-    <circle fill="currentColor" cx="60.2162" cy="45.2458" r="1.66343" transform="rotate(-90 60.2162 45.2458)" />
-    <circle fill="currentColor" cx="74.6634" cy="45.2458" r="1.66343" transform="rotate(-90 74.6634 45.2458)" />
-    <circle fill="currentColor" cx="60.2162" cy="1.66371" r="1.66343" transform="rotate(-90 60.2162 1.66371)" />
-    <circle fill="currentColor" cx="74.6634" cy="1.66371" r="1.66343" transform="rotate(-90 74.6634 1.66371)" />
-</svg>
-
-        </figure>
-
-
-    <img
-            class="shaped-image__image"
-                src="/images/shaped-image-fallback.webp"
-        alt="Yang Yin"
-        
-            width="" height=""
-         />
-</article>
-
-                                        <figcaption class="featured-sessions-section__avatar-caption">
-                                            <strong>Yang Yin</strong>
-                                            <div>the cybersecurity technical director of the Geely R&amp;D Center, the cybersecurity technical leader in global Geely Group</div>
-                                        </figcaption>
-                                    </figure>
-                        </div>
-                        <div class="featured-sessions-section__session">
-                            <h1 class="heading">Featured Sessions</h1>
-                            <h2 class="heading heading--2" aria-label="Yang Yin&#39;s Session">Yang Yin&#39;s Session<div class="featured-sessions-section__categories">
-
-
-<ul aria-label="Session Categories" class="session-categories ">
-</ul>
-
-                                </div>
-                            </h2>
-
-                            <p class="paragraph paragraph--highlighted featured-sessions-section__session-description">...
-                                <a href="/sessions/yang-yins-session-896389/" class="link link--white">read more</a>
-                            </p>
-                            <div class="featured-sessions-section__carousel-buttons">
-    <div class="carousel-buttons">
-        <button
-            aria-label="Previous item"
-                class="button button--outlined button--round"
-                    onclick="window['featuredSession2'].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' })">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16 6.8125H2.65625L7.96875 1.40625C8.25 1.125 8.25 0.6875 7.96875 0.40625C7.6875 0.125 7.25 0.125 6.96875 0.40625L0.5 6.96875C0.21875 7.25 0.21875 7.6875 0.5 7.96875L6.96875 14.5312C7.09375 14.6562 7.28125 14.75 7.46875 14.75C7.65625 14.75 7.8125 14.6875 7.96875 14.5625C8.25 14.2812 8.25 13.8438 7.96875 13.5625L2.6875 8.21875H16C16.375 8.21875 16.6875 7.90625 16.6875 7.53125C16.6875 7.125 16.375 6.8125 16 6.8125Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-        <button
-            aria-label="Next item"
-                disabled class="button button--outlined button--round button--disabled">
-            <div class="button__icon">
-                <svg width="100%" height="100%" viewBox="0 0 17 15" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M16.5 7L10.0312 0.4375C9.75 0.15625 9.3125 0.15625 9.03125 0.4375C8.75 0.71875 8.75 1.15625 9.03125 1.4375L14.2812 6.78125H1C0.625 6.78125 0.3125 7.09375 0.3125 7.46875C0.3125 7.84375 0.625 8.1875 1 8.1875H14.3437L9.03125 13.5938C8.75 13.875 8.75 14.3125 9.03125 14.5938C9.15625 14.7188 9.34375 14.7812 9.53125 14.7812C9.71875 14.7812 9.90625 14.7188 10.0312 14.5625L16.5 8C16.7812 7.71875 16.7812 7.28125 16.5 7Z"
-        fill="currentColor" />
-</svg>
-
-            </div>
-        </button>
-    </div>
-
-                            </div>
-                        </div>
-                    </li>
-            </menu>
-        </div>
-            <a href="/sessions/" class="button button--outlined button--scaled">All Sessions</a>
-    </section>
-</div>
-
-
-
-    
-        
-    
-    
-        
-    
-    
-        
-    
-
-
-    <div class="section-container">
-        <section class="section section--short our-sponsors">
-            <h1 class="heading heading--highlighted heading--centered">
-                Our Sponsors
-            </h1>
-            <h2 class="heading heading--2 heading--centered">
-                A big thank you to our supporters!
-            </h2>
-            <ul class="our-sponsors__list">
-                
-                    <li class="our-sponsors__list-item">
-
-
-<div class="sponsor-card">
-    <a class="sponsor-card__link" href="https://www.zju.edu.cn/english/">
-        
-            <img
-                class="sponsor-card__logo"
-                src="/logos/Zhejiang_University.png"
-                alt="Zhejiang University"
-                
-                    width="1920" height="1920"
-                 />
-        
-    </a>
-</div>
-
-                    </li>
-                    <li class="our-sponsors__list-item">
-
-
-<div class="sponsor-card">
-    <a class="sponsor-card__link" href="https://zgh.com/?lang=en/">
-        
-            <img
-                class="sponsor-card__logo"
-                src="/logos/Geely.svg"
-                alt="Geely"
-                 />
-        
-    </a>
-</div>
-
-                    </li>
-                    <li class="our-sponsors__list-item">
-
-
-<div class="sponsor-card">
-    <a class="sponsor-card__link" href="https://www.huawei.com/en/">
-        
-            <img
-                class="sponsor-card__logo"
-                src="/logos/Huawei.png"
-                alt="Huawei"
-                
-                    width="1182" height="1182"
-                 />
-        
-    </a>
-</div>
-
-                    </li>
+                        </li>
             </ul>
         </section>
     </div>
+    
+        
+    
+        
+    
+        
+        
+    
+        
+    
+
+
+    <div class="section-container section-container--dimmed">
+        <section class="section same-track-sessions-section" aria-label="Further session from the same track">
+            <h1 class="same-track-sessions-section__heading">FURTHER SESSIONS FROM
+                    <span class="same-track-sessions-section__hashtag">
+    #TECHNICAL
+
+                    </span>
+            </h1>
+
+
+<menu class="sessions-menu">
+    
+        <li role="presentation">
+            <a class="menu-item__link" href="/sessions/xiaohang-wangs-session-896384/">
+                <h1 class="sessions-menu__heading">Xiaohang Wang&#39;s Session</h1>
+                <div>
+                    <div class="sessions-menu__time">
+                    </div>
+                    <div class="sessions-menu__track">
+
+                    </div>
+                </div>
+                <div class="menu-item__icon"><svg width="34" height="16" viewBox="0 0 34 16" xmlns="http://www.w3.org/2000/svg">
+    <path
+        d="M1 8.13208H33M33 8.13208L23.784 1M33 8.13208L23.784 15"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
+</div>
+            </a>
+        </li>
+    
+</menu>
+
+        </section>
+    </div>
+
+
+<div class="section-container section-container--highlighted">
+    <section class="section section--long cta-section">
+        <h1 class="cta-section__heading">Have you discovered something exciting?</h1>
+
+        <h2 class="cta-section__subheading">Register today!</h2>
+
+        <p class="cta-section__message">Don&#39;t miss the chance to learn from leading experts and make valuable
+contacts!
+</p>
+
+
+
+    </section>
+</div>
 
 
         </main>

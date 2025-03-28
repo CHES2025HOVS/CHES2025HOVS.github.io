@@ -9,72 +9,24 @@
     <loc>/about/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>/speakers/aiden-test-00000000-0000-0000-0000-000000000004/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/aidens-session-896299/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/speakers/ava-test-00000000-0000-0000-0000-000000000008/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/avas-session-896303/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>/categories/</loc>
   </url><url>
-    <loc>/speakers/emma-test-00000000-0000-0000-0000-000000000002/</loc>
+    <loc>/speakers/haoting-shen-726b25f8-a400-4d8e-aa9f-6873e86f958b/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>/sessions/emmas-session-896297/</loc>
+    <loc>/sessions/haoting-shens-session-896382/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>/speakers/jackson-test-00000000-0000-0000-0000-000000000001/</loc>
+    <loc>/speakers/kun-yang-2b786b92-ff85-4834-a3ea-995c81716f3c/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>/sessions/jacksons-session-896296/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/speakers/liam-test-00000000-0000-0000-0000-000000000006/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/liams-session-896301/</loc>
+    <loc>/sessions/kun-yangs-session-896375/</loc>
     <priority>0</priority>
   </url><url>
     <loc>/location/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>/speakers/lucas-test-00000000-0000-0000-0000-000000000005/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/lucass-session-896300/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/speakers/mia-test-00000000-0000-0000-0000-000000000009/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/mias-session-896304/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/speakers/noah-test-00000000-0000-0000-0000-000000000007/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/noahs-session-896302/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/speakers/olivia-test-00000000-0000-0000-0000-000000000003/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/olivias-session-896298/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>/sessions/</loc>
-  </url><url>
-    <loc>/speakers/sophia-test-00000000-0000-0000-0000-000000000000/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/sophias-session-896295/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>/speakers/</loc>
   </url><url>
@@ -82,5 +34,17 @@
     <priority>0</priority>
   </url><url>
     <loc>/tags/</loc>
+  </url><url>
+    <loc>/speakers/xiaohang-wang-90831a01-8501-4464-a604-af4c65c119a5/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>/sessions/xiaohang-wangs-session-896384/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>/speakers/yang-yin-7cc3eadc-78a4-4585-9830-9ced29df41cd/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>/sessions/yang-yins-session-896389/</loc>
+    <priority>0</priority>
   </url>
 </urlset>
