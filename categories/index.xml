@@ -7,5 +7,96 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced</title>
+      <link>/categories/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/advanced/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arabic</title>
+      <link>/categories/arabic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/arabic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chinese</title>
+      <link>/categories/chinese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/chinese/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>English</title>
+      <link>/categories/english/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/english/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expert</title>
+      <link>/categories/expert/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/expert/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>French</title>
+      <link>/categories/french/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/french/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>German</title>
+      <link>/categories/german/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/german/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intermediate</title>
+      <link>/categories/intermediate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/intermediate/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introductory and Overview</title>
+      <link>/categories/introductory-and-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/introductory-and-overview/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lightning Talk</title>
+      <link>/categories/lightning-talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/lightning-talk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portuguese</title>
+      <link>/categories/portuguese/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/portuguese/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Session</title>
+      <link>/categories/session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/session/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workshop</title>
+      <link>/categories/workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/categories/workshop/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
