@@ -11,16 +11,20 @@
   </url><url>
     <loc>/categories/</loc>
   </url><url>
+    <loc>/sessions/cutting-edge-research-and-technological-breakthroughs-896375/</loc>
+    <priority>0</priority>
+  </url><url>
+    <loc>/categories/english/</loc>
+  </url><url>
+    <loc>/categories/expert/</loc>
+  </url><url>
     <loc>/speakers/haoting-shen-726b25f8-a400-4d8e-aa9f-6873e86f958b/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>/sessions/haoting-shens-session-896382/</loc>
+    <loc>/sessions/industry-practices-and-security-frameworks-896389/</loc>
     <priority>0</priority>
   </url><url>
     <loc>/speakers/kun-yang-2b786b92-ff85-4834-a3ea-995c81716f3c/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/kun-yangs-session-896375/</loc>
     <priority>0</priority>
   </url><url>
     <loc>/location/</loc>
@@ -35,16 +39,12 @@
   </url><url>
     <loc>/tags/</loc>
   </url><url>
+    <loc>/categories/workshop/</loc>
+  </url><url>
     <loc>/speakers/xiaohang-wang-90831a01-8501-4464-a604-af4c65c119a5/</loc>
     <priority>0</priority>
   </url><url>
-    <loc>/sessions/xiaohang-wangs-session-896384/</loc>
-    <priority>0</priority>
-  </url><url>
     <loc>/speakers/yang-yin-7cc3eadc-78a4-4585-9830-9ced29df41cd/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>/sessions/yang-yins-session-896389/</loc>
     <priority>0</priority>
   </url>
 </urlset>

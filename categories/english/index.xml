@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sessions on </title>
-    <link>/sessions/</link>
-    <description>Recent content in Sessions on </description>
+    <title>English on </title>
+    <link>/categories/english/</link>
+    <description>Recent content in English on </description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="/sessions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cutting-Edge Research and Technological Breakthroughs</title>
       <link>/sessions/cutting-edge-research-and-technological-breakthroughs-896375/</link>
